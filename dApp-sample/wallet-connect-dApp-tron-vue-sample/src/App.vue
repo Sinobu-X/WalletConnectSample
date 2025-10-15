@@ -15,14 +15,14 @@ import {
 import { WalletModalProvider } from '@tronweb3/tronwallet-adapter-vue-ui';
 const tronLink = new TronLinkAdapter();
 const walletConnect = new WalletConnectAdapter({
-    network: 'Nile',
+    network: '0x94a9059e',  //shasta chain
     options: {
         relayUrl: 'wss://relay.walletconnect.com',
         // example WC app project ID
-        projectId: '',
+        projectId: '{your WC app project ID}',
         metadata: {
-            name: 'Test DApp',
-            description: 'Test dApp',
+            name: '{your WC app project name}',
+            description: 'MyWallet Test',
             url: 'https://your-dapp-url.org/',
             icons: ['https://your-dapp-url.org/mainLogo.svg'],
         },
