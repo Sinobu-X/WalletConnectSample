@@ -22,7 +22,7 @@ const walletConnect = new WalletConnectAdapter({
         projectId: '{your WC app project ID}',
         metadata: {
             name: '{your WC app project name}',
-            description: 'MyWallet Test',
+            description: 'dApp Test',
             url: 'https://your-dapp-url.org/',
             icons: ['https://your-dapp-url.org/mainLogo.svg'],
         },
